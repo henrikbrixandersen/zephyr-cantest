@@ -1,0 +1,6 @@
+sample:
+  name: CAN bus hog
+tests:
+  sample.drivers.can.bushog:
+    tags: CAN
+    depends_on: can
