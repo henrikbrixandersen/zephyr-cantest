@@ -1,0 +1,6 @@
+sample:
+  name: CAN TX queue shell
+tests:
+  sample.drivers.can.tx_queue:
+    tags: CAN
+    depends_on: can
